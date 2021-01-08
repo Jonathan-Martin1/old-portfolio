@@ -68,12 +68,12 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  /* background: url('../imgs/background1.jpg'); */
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   min-height: 100%;
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-2);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -106,10 +106,12 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-p {
+p,
+p2 {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: black;
 }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
