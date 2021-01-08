@@ -1,0 +1,60 @@
+body {  /* CSS for the background and device changes for the background*/
+  background: url('background1.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  font-family: Arial;
+  color: white;
+  min-height: 100%;
+}
+ul {  /* Unordered list for my navigation*/
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+    background-color: white;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: #FA8072;
+}
+
+h1 {  /*coloring, font size and where it's positioned*/
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+h2 {  /* simple centering and text size */
+  text-align: center;
+  font-size: 40px;
+}
+p { /* paragraph color, line height, text size and blocking it*/
+  font-color: white;
+  line-height: 40px;
+  font-size: 20px;
+  display: inline-block;
+}
+p a { /* any links in the paragraph would be red */
+  color: red;
+}
+p a:hover { /* hover over the link it will be white */
+  color: white;
+}
+.footer_bottom { /* footer alignment, color and location */
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+}

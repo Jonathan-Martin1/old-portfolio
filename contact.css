@@ -1,0 +1,80 @@
+body { /* CSS for the background and device changes for the background*/
+  background: url('background1.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  font-family: Arial;
+  color: white;
+  min-height: 100%;
+}
+
+ul {  /* Unordered list for my navigation*/
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+    background-color: white;
+    opacity: .8;
+    line-height: 40px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: #FA8072;
+}
+h1 {  /*coloring, font size and where it's positioned*/
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {  /* simple centering and text size */
+  text-align: center;
+  font-size: 40px;
+}
+h3 { /* underlined text, centering, with font-size*/
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+h4 {  /* underlined text, centering, with font-size*/
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+p a { /* links in the paragraph to be red to stand out */
+  color: red;
+} 
+/* when you hover over the paragraph links they turn white */
+p a:hover {
+  color: white;
+}
+.map { /* centering for my map */
+  text-align: center;
+}
+.LI-profile-badge { /* centering for my linked in */
+  text-align: center;
+  color: white;
+}
+.LI-profile-badge:hover { /* hover color for the linked in to know when your over it */
+  background-color: #FA8072;
+}
+.github { /* github button to center */
+  text-align: center;
+}
+.footer_bottom { /* footer positioning, color */
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+}
