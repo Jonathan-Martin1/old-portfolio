@@ -1,5 +1,6 @@
-body { /* CSS for the background and device changes for the background*/
-  background: url('background1.jpg') no-repeat;
+body {
+  /* CSS for the background and device changes for the background*/
+  background: url('../imgs/background1.jpg') no-repeat;
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
@@ -8,7 +9,8 @@ body { /* CSS for the background and device changes for the background*/
   min-height: 100%;
 }
 
-ul {  /* Unordered list for my navigation*/
+ul {
+  /* Unordered list for my navigation*/
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -16,11 +18,11 @@ ul {  /* Unordered list for my navigation*/
 }
 
 ul li {
-    background-color: white;
-    opacity: .8;
-    line-height: 40px;
-    font-size: 20px;
-    display: inline-block;
+  background-color: white;
+  opacity: 0.8;
+  line-height: 40px;
+  font-size: 20px;
+  display: inline-block;
 }
 
 ul li a {
@@ -30,50 +32,60 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #FA8072;
+  background-color: #fa8072;
 }
-h1 {  /*coloring, font size and where it's positioned*/
+h1 {
+  /*coloring, font size and where it's positioned*/
   color: red;
   font-size: 50px;
   text-align: center;
 }
 
-h2 {  /* simple centering and text size */
+h2 {
+  /* simple centering and text size */
   text-align: center;
   font-size: 40px;
 }
-h3 { /* underlined text, centering, with font-size*/
+h3 {
+  /* underlined text, centering, with font-size*/
   text-align: center;
   font-size: 30px;
   text-decoration: underline;
 }
-h4 {  /* underlined text, centering, with font-size*/
+h4 {
+  /* underlined text, centering, with font-size*/
   text-align: center;
   font-size: 30px;
   text-decoration: underline;
 }
 
-p a { /* links in the paragraph to be red to stand out */
+p a {
+  /* links in the paragraph to be red to stand out */
   color: red;
-} 
+}
 /* when you hover over the paragraph links they turn white */
 p a:hover {
   color: white;
 }
-.map { /* centering for my map */
+.map {
+  /* centering for my map */
   text-align: center;
 }
-.LI-profile-badge { /* centering for my linked in */
+.LI-profile-badge {
+  /* centering for my linked in */
   text-align: center;
   color: white;
 }
-.LI-profile-badge:hover { /* hover color for the linked in to know when your over it */
-  background-color: #FA8072;
+.LI-profile-badge:hover {
+  /* hover color for the linked in to know when your over it */
+  background-color: #fa8072;
 }
-.github { /* github button to center */
+.github {
+  /* github button to center */
   text-align: center;
 }
-.footer_bottom { /* footer positioning, color */
+.footer_bottom {
+  /* footer positioning, color */
   text-align: center;
   bottom: 10px;
   width: 100%;
