@@ -52,7 +52,7 @@ h3 {
 }
 p {
   /* color, height/position, text size, display and how far from bottom */
-  font-color: white;
+  color: white;
   line-height: 40px;
   font-size: 20px;
   display: inline-block;

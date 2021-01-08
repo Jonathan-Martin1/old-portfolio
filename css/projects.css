@@ -47,7 +47,7 @@ h2 {
 }
 p {
   /* paragraph color, line height, text size and blocking it*/
-  font-color: white;
+  color: white;
   line-height: 40px;
   font-size: 20px;
   display: inline-block;

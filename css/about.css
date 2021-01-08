@@ -149,7 +149,7 @@ p a:hover {
 }
 p {
   /*all paragraph text, display, postion, color, height and text size*/
-  font-color: red;
+  color: red;
   line-height: 40px;
   font-size: 20px;
   display: inline-block;
