@@ -254,7 +254,7 @@ nav {
   .icons {
     /* width and location of the icons on the home screen as well as the box around with shadding */
     display: flex;
-    width: 72%;
+    width: 60%;
     margin: auto;
     padding: 10px 10px 20px 10px;
     border: 1px solid #bfbfbf;
