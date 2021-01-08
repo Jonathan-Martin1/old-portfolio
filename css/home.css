@@ -217,6 +217,26 @@ nav {
 .show-links {
   height: 10rem;
 }
+.text {
+  width: 60%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 18px;
+}
+.footer_bottom {
+  /* footer positioning, color */
+  font-size: 18px;
+  text-align: center;
+  bottom: 5px;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
