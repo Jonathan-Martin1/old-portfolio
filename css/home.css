@@ -251,25 +251,21 @@ nav {
   .social-icons a:hover {
     color: var(--clr-primary-7);
   }
-}
-.icons {
-  /* width and location of the icons on the home screen as well as the box around with shadding */
-  width: 40%;
-  margin: auto;
-  padding: 10px 10px 20px 10px;
-  border: 1px solid #bfbfbf;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  height: 570px;
-  text-align: center;
-}
-.icons3 {
-  /* centering */
-  text-align: center;
-}
-.footer_bottom {
-  /* footer positioning, color */
-  text-align: center;
-  bottom: 10px;
-  width: 100%;
+  .icons {
+    /* width and location of the icons on the home screen as well as the box around with shadding */
+    display: flex;
+    width: 72%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    justify-content: center;
+  }
+  .footer_bottom {
+    /* footer positioning, color */
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+  }
 }
