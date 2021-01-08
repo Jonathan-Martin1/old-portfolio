@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  /* background: url('../imgs/background1.jpg'); */
+  background: url('../imgs/newbackground.jpg');
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;

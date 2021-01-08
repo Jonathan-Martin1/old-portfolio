@@ -68,12 +68,12 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: url('../imgs/newbackground.jpg');
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   min-height: 100%;
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-2);
   line-height: 1.5;
   font-size: 0.875rem;
 }
