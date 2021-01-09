@@ -288,19 +288,7 @@ nav {
   box-shadow: 10px 10px 5px #aaaaaa;
   text-shadow: var(--clr-black);
 }
-.footer_bottom {
-  /* footer positioning, color */
-  font-size: 18px;
-  text-align: center;
-  width: 72%;
-  margin: auto;
-  padding: 10px 10px 20px 10px;
-  border: 1px solid #bfbfbf;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  margin-top: auto;
-  color: var(--clr-black);
-}
+
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
@@ -375,19 +363,5 @@ nav {
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
     text-shadow: var(--clr-black);
-  }
-  .footer_bottom {
-    /* footer positioning, color */
-    display: flex;
-    font-size: 18px;
-    justify-content: center;
-    width: 72%;
-    margin: auto;
-    padding: 10px 10px 20px 10px;
-    border: 1px solid #bfbfbf;
-    background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin-top: auto;
-    color: var(--clr-black);
   }
 }
