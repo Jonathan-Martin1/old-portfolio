@@ -213,6 +213,7 @@ nav {
   height: 0;
   overflow: hidden;
   transition: var(--transition);
+  text-shadow: 1px 1px var(--clr-black);
 }
 .show-links {
   height: 10rem;
@@ -305,7 +306,7 @@ nav {
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
   }
-  .text {
+  /* .text {
     width: 60%;
     margin: auto;
     padding: 10px 10px 20px 10px;
@@ -313,5 +314,5 @@ nav {
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
     font-size: 18px;
-  }
+  } */
 }
