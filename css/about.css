@@ -348,6 +348,30 @@ p a:hover {
 .demo:hover {
   opacity: 1;
 }
+.container3 {
+  display: flex;
+  color: var(--clr-black);
+  font-size: 18px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.container4 {
+  display: flex;
+  color: var(--clr-black);
+  font-size: 18px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 1170px;
@@ -408,6 +432,13 @@ p a:hover {
   .container {
     position: relative;
     width: 40%;
+  }
+  .container2 {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
   }
 
   /* Hide the images by default */
@@ -486,6 +517,34 @@ p a:hover {
   .active,
   .demo:hover {
     opacity: 1;
+  }
+  .container3 {
+    display: flex;
+    color: var(--clr-black);
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  .container4 {
+    display: flex;
+    color: var(--clr-black);
+    font-size: 18px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  .container3 p,
+  .container4 p {
+    text-shadow: 2px 2px var(--clr-grey-9);
   }
   .footer_bottom {
     /* footer positioning, color */
