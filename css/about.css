@@ -223,6 +223,16 @@ nav {
 .show-links {
   height: 10rem;
 }
+.container5 {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 18px;
+}
 .text {
   width: 60%;
   margin: auto;
@@ -542,10 +552,17 @@ p a:hover {
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
   }
-  .container3 p,
-  .container4 p {
-    text-shadow: 2px 2px var(--clr-grey-9);
+  .container5 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-size: 18px;
   }
+
   .footer_bottom {
     /* footer positioning, color */
     font-size: 18px;
