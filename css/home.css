@@ -225,6 +225,7 @@ nav {
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
   font-size: 18px;
+  text-shadow: 1px 1px var(--clr-black);
 }
 .footer_bottom {
   /* footer positioning, color */
