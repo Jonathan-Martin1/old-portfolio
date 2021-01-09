@@ -99,6 +99,8 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
 h3 {
   font-size: 1.25rem;
@@ -106,8 +108,7 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-p,
-p2 {
+p {
   margin-bottom: 1.25rem;
   color: black;
 }
@@ -118,6 +119,8 @@ p2 {
   }
   h2 {
     font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
   }
   h3 {
     font-size: 1.75rem;
@@ -228,16 +231,75 @@ nav {
   font-size: 18px;
   text-shadow: 1px 1px var(--clr-black);
 }
-.footer_bottom {
-  /* footer positioning, color */
-  font-size: 18px;
-  text-align: center;
-  bottom: 5px;
+.icons {
+  /* width and location of the icons on the home screen as well as the box around with shadding */
+  display: flex;
+  width: auto;
+  max-width: 100%;
+  height: auto;
   margin: auto;
   padding: 10px 10px 20px 10px;
   border: 1px solid #bfbfbf;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  width: 72%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  text-shadow: var(--clr-black);
+}
+.text {
+  width: 60%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  font-size: 18px;
+  text-shadow: 1px 1px var(--clr-black);
+}
+.icons {
+  /* width and location of the icons on the home screen as well as the box around with shadding */
+  display: flex;
+  width: 72%;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  width: 72%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  text-shadow: var(--clr-black);
+}
+.footer_bottom {
+  /* footer positioning, color */
+  font-size: 18px;
+  text-align: center;
+  width: 72%;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin-top: auto;
+  color: var(--clr-black);
 }
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -281,38 +343,51 @@ nav {
   .social-icons a:hover {
     color: var(--clr-primary-7);
   }
+  .text {
+    width: 60%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    font-size: 18px;
+    text-shadow: 1px 1px var(--clr-black);
+    justify-content: auto;
+  }
   .icons {
     /* width and location of the icons on the home screen as well as the box around with shadding */
     display: flex;
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
+    width: 72%;
     padding: 10px 10px 20px 10px;
     border: 1px solid #bfbfbf;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container2 {
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    text-shadow: var(--clr-black);
   }
   .footer_bottom {
     /* footer positioning, color */
+    display: flex;
     font-size: 18px;
-    text-align: center;
-    bottom: 5px;
-    width: 60%;
+    justify-content: center;
+    width: 72%;
     margin: auto;
     padding: 10px 10px 20px 10px;
     border: 1px solid #bfbfbf;
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
+    margin-top: auto;
+    color: var(--clr-black);
   }
-  /* .text {
-    width: 60%;
-    margin: auto;
-    padding: 10px 10px 20px 10px;
-    border: 1px solid #bfbfbf;
-    background-color: white;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    font-size: 18px;
-  } */
 }
