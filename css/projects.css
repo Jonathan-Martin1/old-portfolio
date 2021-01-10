@@ -150,6 +150,20 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+.image1 {
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+.image2 {
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -221,6 +235,20 @@ nav {
 .show-links {
   height: 10rem;
 }
+.image1 {
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+.image2 {
+  display: flex;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+}
 
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -263,5 +291,19 @@ nav {
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
+  }
+  .image1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .image2 {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    justify-content: center;
   }
 }
