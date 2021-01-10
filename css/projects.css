@@ -150,10 +150,9 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
-.list1 {
+.image1 {
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: space-around;
 }
 .image2 {
@@ -287,7 +286,10 @@ nav {
   }
   .image1 {
     display: flex;
-    align-items: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    align-self: center;
     justify-content: space-around;
   }
   .image2 {
