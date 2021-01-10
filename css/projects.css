@@ -150,21 +150,15 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
-.image1 {
+.list1 {
   display: flex;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  align-self: center;
+  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
-  flex-shrink: 1;
 }
 .image2 {
   display: flex;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  align-self: center;
+  align-items: center;
   justify-content: space-around;
 }
 @media screen and (min-width: 992px) {
@@ -240,18 +234,12 @@ nav {
 }
 .image1 {
   display: flex;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  align-self: center;
+  align-items: center;
   justify-content: space-around;
 }
 .image2 {
   display: flex;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  align-self: center;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -299,18 +287,12 @@ nav {
   }
   .image1 {
     display: flex;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    align-self: center;
+    align-items: center;
     justify-content: space-around;
   }
   .image2 {
     display: flex;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    align-self: center;
+    align-items: center;
     justify-content: space-around;
   }
 }
