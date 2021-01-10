@@ -155,14 +155,17 @@ p {
   width: auto;
   height: auto;
   max-width: 100%;
-  justify-content: center;
+  align-self: center;
+  justify-content: space-around;
+  flex-shrink: 1;
 }
 .image2 {
   display: flex;
   width: auto;
   height: auto;
   max-width: 100%;
-  justify-content: center;
+  align-self: center;
+  justify-content: space-around;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -240,14 +243,16 @@ nav {
   width: auto;
   height: auto;
   max-width: 100%;
-  justify-content: center;
+  align-self: center;
+  justify-content: space-around;
 }
 .image2 {
   display: flex;
   width: auto;
   height: auto;
   max-width: 100%;
-  justify-content: center;
+  align-self: center;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 800px) {
@@ -297,13 +302,15 @@ nav {
     width: auto;
     height: auto;
     max-width: 100%;
-    justify-content: center;
+    align-self: center;
+    justify-content: space-around;
   }
   .image2 {
     display: flex;
     width: auto;
     height: auto;
     max-width: 100%;
-    justify-content: center;
+    align-self: center;
+    justify-content: space-around;
   }
 }
