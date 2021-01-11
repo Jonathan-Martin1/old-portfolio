@@ -150,6 +150,11 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+.map {
+  /* centering for my map */
+  display: flex;
+  justify-content: center;
+}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -266,17 +271,6 @@ nav {
   font-size: 18px;
   text-shadow: 1px 1px var(--clr-black);
 }
-.icons {
-  /* width and location of the icons on the home screen as well as the box around with shadding */
-  display: flex;
-  width: 72%;
-  padding: 10px 10px 20px 10px;
-  border: 1px solid #bfbfbf;
-  background-color: white;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 .container2 {
   display: flex;
   justify-content: center;
@@ -287,6 +281,11 @@ nav {
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
   text-shadow: var(--clr-black);
+}
+.map {
+  /* centering for my map */
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 800px) {
@@ -363,5 +362,10 @@ nav {
     background-color: white;
     box-shadow: 10px 10px 5px #aaaaaa;
     text-shadow: var(--clr-black);
+  }
+  .map {
+    /* centering for my map */
+    display: flex;
+    justify-content: center;
   }
 }

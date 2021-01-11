@@ -145,6 +145,42 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+.LI-profile-badge {
+  /* centering for my linked in */
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.github {
+  /* github button to center */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.container1,
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -170,6 +206,10 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  color: black;
+  text-shadow: 0px -2px 4px #fff, 0px -2px 10px #ff3, 0px -10px 20px #f90,
+    0px -20px 40px #c33;
+  font-size: 100px;
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -207,9 +247,41 @@ nav {
   height: 0;
   overflow: hidden;
   transition: var(--transition);
+  text-shadow: 1px 1px var(--clr-black);
 }
 .show-links {
   height: 10rem;
+}
+.LI-profile-badge {
+  /* centering for my linked in */
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.github {
+  /* github button to center */
+  display: flex;
+  justify-content: center;
+}
+.container1,
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -249,27 +321,42 @@ nav {
   .social-icons a:hover {
     color: var(--clr-primary-7);
   }
-}
-.map {
-  /* centering for my map */
-  text-align: center;
-}
-.LI-profile-badge {
-  /* centering for my linked in */
-  text-align: center;
-  color: white;
-}
-.LI-profile-badge:hover {
-  /* hover color for the linked in to know when your over it */
-  background-color: #fa8072;
-}
-.github {
-  /* github button to center */
-  text-align: center;
-}
-.footer_bottom {
-  /* footer positioning, color */
-  text-align: center;
-  bottom: 10px;
-  width: 100%;
+  .LI-profile-badge {
+    /* centering for my linked in */
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .github {
+    /* github button to center */
+    display: flex;
+    justify-content: center;
+  }
+  .container1,
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 20%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #bfbfbf;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
 }
